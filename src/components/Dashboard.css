@@ -1,0 +1,83 @@
+.main{
+    display: flex;
+    height: 100vh;
+}
+.sidecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+    padding: 10px;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.2);
+    /* margin-right: 0; */
+}
+.sideb{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rightside{
+    width: 85%;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.navbtn{
+    padding: 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+.navbelow{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.input{
+    height: 15px;
+    border-radius: 50px;
+    border-style: solid;
+}
+.inputWithIcon {
+    position: relative;
+  }
+  .inputWithIcon {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .searchIcon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: grey;
+    cursor: pointer; /* Add cursor style for better usability */
+  }
+  
+  .nabelow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.nabelow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.create{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(117, 135, 135);
+    padding:10px 25px 10px 25px;
+    border-radius: 20px;
+}

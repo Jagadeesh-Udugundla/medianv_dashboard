@@ -1,0 +1,45 @@
+.tablecontainermain{
+    background-color: rgb(245, 248, 249);
+    margin: 5px;
+}
+
+.tablecontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.tablehead{
+    background-color: rgb(33, 22, 224);
+    color: white;
+    border: none;
+}
+.btnstable{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.da{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    /* padding-bottom: 30px; */
+}
+.moredetails{
+    display: flex;
+    justify-content: space-between;
+}
+.moredetailscontainer{
+    display: flex;
+    align-items: center;
+}
+.addcontainer{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(221, 231, 240);
+    border-radius: 20px;
+}
+.btnview{
+    border: none;
+    color: blue;
+    cursor: pointer;
+    background-color: white;
+}
